@@ -1,0 +1,74 @@
+/*
+Building Blocks
+
+selector{
+
+    [ Declaration Block]
+    property: value;
+}
+
+*/
+
+/*
+body{
+    background-color: darkgoldenrod;
+}
+*/
+
+nav {
+    background-color: #d2d2d2;
+/*
+ - preset colors: red, blue, yellow, etc.
+ - rgb & rgba ( red, green, blue, alpha_
+ - alpha determines transparency
+ - example rgba(200, 15, 100, 0.5)
+ - each color scales from 0 - 255
+ - Hexidecimal
+  - 16 digit: 0-9, A-F
+  - #d2f
+*/
+    overflow: hidden;
+}
+/*
+## Order Specificity
+1. `Important`
+2. `Inline CSS`
+3. `ID Selectors`
+4. `Class Selectors`
+5. `Element Selectors`
+*/
+
+.btn{ /* Periods indicate class */
+   float:right;
+   color:black !important;
+   text-align: center; 
+   padding: 14px  16px;
+   /*padding: 14px 16px 14px 16px;*/
+    /*padding: 14px; <-- all sides are 14px */
+   text-decoration: none;
+   font-size: 17px;
+}
+
+#home { /* Hash (#) indicate ID */
+    float:left;
+}
+
+nav .btn{
+/* Points to a nav and ANY class within it or children of, name "btn" */
+text-shadow: 2px 2px 2px  black rgba(0, 0,0, .5);
+}
+
+div .paragraph > p{
+    color:red;
+}
+.paragraph + div{
+    color:purple;
+}
+
+a:hover{
+    color: lightblue;
+}
+a:active{
+    color:purple;
+    text-shadow: 2px 2px 2px white (255, 255, 255);
+}

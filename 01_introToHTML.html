@@ -1,0 +1,108 @@
+<!--Comments-->
+<!DOCTYPE html>
+<html lang="en">
+<title>Intro to HTML</title>
+<!--Comments
+CTRL + /or CMD
+-->
+
+<!--Comments
+-Doctypes declare exactly what it is, HTML docuement
+- lang: notes what the langauge of the document. Helps a
+assist search engines and browswers.
+- The head tag holds our meta data for the document
+-->
+
+<head>
+<meta charset="UTF-8">
+
+<!--Comments
+<head> hold various information such as title, viewport
+    setting, links
+    - charset: defines which character are avaiiable
+    - UTF-8: covers almost all of the characters.
+    -http-equiv: Allows us to render older browser
+    versions if necessary.
+    -name and content: Details on the user viewport
+    , or screen and auto scales as necessary.
+    <title>: details the title of our documemnt. This dispalys
+        in the tab of the broswer.
+-->
+</head>
+<body>
+    <!--body is what the client will display when rendering-->
+</body>
+<h1>Example of Structural Elements</h1>
+<div>
+    <div>
+        - h1: heading. These are from 
+        h1-h6, get smaller as number increases.
+        - div: a division
+        - p: paragraph elememty
+        - image : provides am image
+        -span : We can write a block of text without
+        line breaks.
+    </div>
+    <h2>Sample H2</h2>
+    <h3>Sample H3</h3>
+    <p>Here is a paragraph element</p>
+    <!--  Using emmet, We can inject "lorem" and hit
+        tab to populate a block of text.-->
+<span>
+    Lorem, 
+    ipsum dolor sit amet consectetur adipisicing elit. Ut in quam culpa suscipit hic facere aliquid id! Id eum dolorum mollitia doloremque, debitis repudiandae est nihil eaque quia veritatis inventore!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi quae consequuntur in dignissimos? Culpa ullam expedita assumenda dignissimos ex eveniet veniam odio, ipsum aperiam sequi cum similique eos aut!
+</span>
+<img src="https://assets.website-files.com/5f4577933a0688792f77983b/5ffcaf5bf69d7dbee581b8e3_01_11-21_UPRIGHT_LOGO_800.png" alt="Upright Logo">
+<img src="..//assets/url.png" alt="example">    
+<!--img tag has two default attributes
+-src: source
+- required
+-source of image
+-alt: optional, highly recommended.
+-->
+</div>
+<h1>Examples of Styled Elements</h1>
+<!--
+emmet example of div>ul>li*6
+ul: Unorded list with 6 list items all with a parent div.
+-->
+<div>
+    <ul>
+        <li><strong>Bolds our text</strong>but so does <b>this</b>.</li>
+        <li><em>Provides emphasis</em><i>italics</i></li>
+        <li><br>Will do a line break for us.<i>Notice the no closing tag?</i></li>
+        <li><hr> Gives us a horizontal rule or <b>dividing line.</b></li>
+        <li><blockquote>"quote"</blockquote></li>
+        <li><pre>A way to showcase code.</pre></li>
+    </ul>
+</div>
+<h1>Examples of Self-Closing Elements</h1>
+<div>
+<!--
+imput:typically used in forms but not limited.
+    - Many different types: numbers, text, radial, emails
+    emails, password, etc.
+    Link: wont' show up in the browser, but allows us to connect to
+    other files.
+    <input type="text">
+    <input type="color" name="date" id=""">
+    <input type="date" name="date"  id="">
+    <link rel="stylesheet" href="#">
+-->
+<!--Sample HTML layout of Page Structure-->
+<img src="../assets/weblayout_examle.jpg" alt="sample web page lay">
+<div>
+<header>Header</header>
+<aside>Aside</aside>
+<section>
+    <article>article 1</article>
+    <article>artcile 2</article>
+    <article>article 3</article>
+</section>
+<footer>Footer</footer>
+</div>
+
+</div>
+</body>
+</html>
