@@ -1,0 +1,45 @@
+header{
+    border:1px solid black;
+    padding-top: 50px;
+    margin: 10px 50px 20px 0;
+    display:block;
+    padding:none;
+    background-color:gray;
+    height: 150px;
+    text-align: center;
+    font-size:xx-large;
+
+}
+nav{
+    border: 1px solid black;
+    margin: 10px 50px 20px 0;
+    padding-top: 150px;
+    display: block;
+    padding:0%;
+    background-color: beige;
+    height: 150px;
+    text-align:center;
+    font-size: xx-large;
+}
+
+main{
+    border: 1px solid black;
+    margin: 10px 50px 20px 0;
+    padding-top: 25px;
+    display: block;
+    padding: none;
+    background-color:lavenderblush;
+    height:none;
+    text-align: center;
+}
+p{
+    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 50px 20px 0;
+    display: block;
+    padding: none;
+    background-color: azure;
+    text-align: center;
+    padding-top:0%;
+    border: 1px solid black;
+}
